@@ -47,6 +47,11 @@ namespace JogoDeXadrez.Tabuleiros
             QtdMovimentos++;
         }
 
+        public void decrementarQtdMovimentos()
+        {
+            QtdMovimentos--;
+        }
+
         public abstract bool[,] movimentosPossiveis();
     }
 }
